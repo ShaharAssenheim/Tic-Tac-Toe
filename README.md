@@ -10,3 +10,19 @@ In this Tic Tac To implementaion the user play against the computer, To display 
 We have defined the **chooseSymbol()** method which allows the player to choose which sign he Wants to play with, the method also randomly decides who will start the game. The player chooses The desired square by clicking it on the game screen and the method responsible for it is **choosenPosition()** which marks the player's sign in the desired square and updates myTable array Where desired. The main method used for the computer turn is **ComputerTurn()**, When the method is activated it first checks to see if there is a free square that can bring the computer to victory, this is done by copying myTable to a temporary array and check by a loop in all the squares, if such a square is found It returned, otherwise check whether there is a square that the player can win with in his next turn, if there is such a square it is returned.
 
 After each move of the player or computer two methods applayed, the first is **findWinner()** Which checks in myTable array whether there is a Vertical, horizontal or diagonal row filled with the same mark and if so does notify On a win, for example if myTable[1] & myTable[5] & myTable[9] with the same sign then that means that the diagonal is full, the second method that is activated is **checkForTie()**, it checks whether the myTable array is full, if it is it means that the game is finished in a tie.
+
+
+Application GUI and implementation:
+-
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/31032862/57181920-3b4a6780-6ea2-11e9-8008-1536f92d268d.png" width="50%">
+</p>
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/31032862/57181924-4bfadd80-6ea2-11e9-9906-3ab5c40ab482.png" width="50%">
+</p>
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/31032862/57181928-574e0900-6ea2-11e9-92ce-b1441bd2fc99.png" width="50%">
+</p>
