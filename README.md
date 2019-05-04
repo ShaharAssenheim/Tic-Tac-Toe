@@ -15,14 +15,17 @@ After each move of the player or computer two methods applayed, the first is **f
 Application GUI and implementation:
 -
 
+**The Game menu screen:**
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/31032862/57181920-3b4a6780-6ea2-11e9-8008-1536f92d268d.png" width="50%">
 </p>
 
+**choosen symbol screen:**
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/31032862/57181924-4bfadd80-6ea2-11e9-9906-3ab5c40ab482.png" width="50%">
 </p>
 
+**Game Over scree, the computer has won:**
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/31032862/57181928-574e0900-6ea2-11e9-92ce-b1441bd2fc99.png" width="50%">
 </p>
